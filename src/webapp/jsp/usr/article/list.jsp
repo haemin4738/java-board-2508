@@ -35,4 +35,21 @@ List<Article> articleList = (List<Article>) request.getAttribute("articleList");
             <li>${article.id}번 : ${article.title}</li>
             </c:forEach>
         </ul>
+
+        <table border="1">
+            <thead>
+            <tr>
+                <th>번호</th>
+                <th>내용</th>
+            </tr>
+            </thead>
+            <c:forEach var="article" items="${articleList}" varStatus="status">
+            <tbody>
+                <tr>
+                    <td>${article.id}번</td>
+                    <td>${article.title}</td>
+                </tr>
+            </c:forEach>
+            </tbody>
+        </table>
     </div>

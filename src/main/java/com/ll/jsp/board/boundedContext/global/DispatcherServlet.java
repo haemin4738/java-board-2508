@@ -1,8 +1,8 @@
 package com.ll.jsp.board.boundedContext.global;
 
-import com.ll.jsp.board.boundedContext.global.base.Rq;
 import com.ll.jsp.board.boundedContext.article.controller.ArticleController;
 import com.ll.jsp.board.boundedContext.base.Container;
+import com.ll.jsp.board.boundedContext.global.base.Rq;
 import com.ll.jsp.board.boundedContext.member.controller.MemberController;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -21,11 +21,22 @@ public class DispatcherServlet extends HttpServlet {
         MemberController memberController = Container.memberController;
         ArticleController articleController = Container.articleController;
 
-        String url = req.getRequestURI();
-
-        switch (url) {
-            case "/usr/article/list" -> articleController.showList(rq);
-            case "/usr/member/join" -> memberController.showJoin(rq);
+        switch (rq.getMethod()) {
+            case "GET":
+                switch (rq.getUrlPath()) {
+                    case "/usr/article/write" -> articleController.showWrite(rq);
+                    case "/usr/article/list" -> articleController.showList(rq);
+                    case "/usr/member/join" -> memberController.showJoin(rq);
+                }
+            case "POST":
+                switch (rq.getUrlPath()) {
+                    case "/usr/article/write" -> articleController.doWrite(rq);
+                }
         }
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doGet(req, resp);
     }
 }
