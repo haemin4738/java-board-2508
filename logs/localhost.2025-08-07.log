@@ -1,0 +1,2603 @@
+07-Aug-2025 14:45:24.930 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [5] 행에서 오류가 발생했습니다.
+The method parsetInt(String) is undefined for the type Integer
+2: 
+3: <%
+4: int dan = Integer.parseInt(request.getParameter("dan"));
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <% =dan%>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <% =dan%>
+9: <% =limit%>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <% =dan%>
+9: <% =limit%>
+
+
+JSP 파일 [/gugudan.jsp]의 [9] 행에서 오류가 발생했습니다.
+Syntax error on tokens, delete these tokens
+6: %>
+7: 
+8: <% =dan%>
+9: <% =limit%>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [5] 행에서 오류가 발생했습니다.
+The method parsetInt(String) is undefined for the type Integer
+2: 
+3: <%
+4: int dan = Integer.parseInt(request.getParameter("dan"));
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <% =dan%>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <% =dan%>
+9: <% =limit%>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <% =dan%>
+9: <% =limit%>
+
+
+JSP 파일 [/gugudan.jsp]의 [9] 행에서 오류가 발생했습니다.
+Syntax error on tokens, delete these tokens
+6: %>
+7: 
+8: <% =dan%>
+9: <% =limit%>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:555)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:332)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:376)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:45:24.930 심각 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:45:26.081 심각 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:45:26.754 심각 [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:45:27.322 심각 [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:45:27.908 심각 [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:02.423 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [5] 행에서 오류가 발생했습니다.
+The method parsetInt(String) is undefined for the type Integer
+2: 
+3: <%
+4: int dan = Integer.parseInt(request.getParameter("dan"));
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [5] 행에서 오류가 발생했습니다.
+The method parsetInt(String) is undefined for the type Integer
+2: 
+3: <%
+4: int dan = Integer.parseInt(request.getParameter("dan"));
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:555)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:332)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:376)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:02.423 심각 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:02.666 심각 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:03.332 심각 [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:03.770 심각 [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:04.200 심각 [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:31.955 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [5] 행에서 오류가 발생했습니다.
+The method parsetInt(String) is undefined for the type Integer
+2: 
+3: <%
+4: int dan = Integer.parseInt(request.getParameter("dan"));
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [5] 행에서 오류가 발생했습니다.
+The method parsetInt(String) is undefined for the type Integer
+2: 
+3: <%
+4: int dan = Integer.parseInt(request.getParameter("dan"));
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:555)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:332)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:376)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:33.009 심각 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:33.582 심각 [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:33.886 심각 [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:34.088 심각 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:48:50.685 심각 [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [5] 행에서 오류가 발생했습니다.
+The method parsetInt(String) is undefined for the type Integer
+2: 
+3: <%
+4: int dan = Integer.parseInt(request.getParameter("dan"));
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [5] 행에서 오류가 발생했습니다.
+The method parsetInt(String) is undefined for the type Integer
+2: 
+3: <%
+4: int dan = Integer.parseInt(request.getParameter("dan"));
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parsetInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:555)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:332)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:376)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:49:12.491 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:555)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:332)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:376)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:49:21.232 심각 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan%></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:555)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:332)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:376)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:49:42.733 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan %></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan %></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan %></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+5: int limit = Integer.parseInt(request.getParameter("limit"));
+6: %>
+7: 
+8: <h1><% =dan %></h1>
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:555)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:332)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:376)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:49:43.587 심각 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:49:44.719 심각 [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:49:45.214 심각 [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:50:06.473 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token "=", @ expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, type annotations are illegal here
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+i cannot be resolved to a type
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Duplicate local variable out
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ".", ; expected
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+The method write(char) is undefined for the type gugudan_jsp
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error on token ";", Expression expected after this token
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+JSP 파일 [/gugudan.jsp]의 [12] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+9: 
+10: <% for (int i = 1; i <= limit; i++){ %>
+11: <div>
+12:     <% =dan %> * <% i %> = <% =dan * i %>
+13: </div>
+14: <% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:72)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:192)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:555)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:374)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:332)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:376)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:50:06.545 심각 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+07-Aug-2025 14:50:08.690 심각 [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp]을(를) 발생시켰습니다.
+	java.lang.ClassNotFoundException: org.apache.jsp.gugudan_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:119)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:56)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:151)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:171)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:390)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:357)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:308)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
