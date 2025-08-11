@@ -2,7 +2,6 @@
 <!-- JSP 파일에서 JSTL을 사용하기 위해 taglib 선언-->
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-
 <div>
     <h1>${article.title}</h1>
     <div>
@@ -19,5 +18,8 @@
 
     <div>
         <a href="/usr/article/list">목록</a>
+    </div>
+    <div>
+        <a href="/usr/article/modify/${article.id}">수정</a>
     </div>
 </div>

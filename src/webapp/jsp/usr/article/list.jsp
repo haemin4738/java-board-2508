@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
 <%@ page import="com.ll.jsp.board.boundedContext.article.dto.Article" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="java.util.List" %>
 
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!-- JSP 파일에서 JSTL을 사용하기 위해 taglib 선언-->
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <%
@@ -47,7 +47,9 @@ List<Article> articleList = (List<Article>) request.getAttribute("articleList");
             <tbody>
                 <tr>
                     <td>${article.id}번</td>
-                    <td>${article.title}</td>
+                    <td>
+                        <a href="/usr/article/detail/${article.id}">${article.title}</a>
+                    </td>
                 </tr>
             </c:forEach>
             </tbody>

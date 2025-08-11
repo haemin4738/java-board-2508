@@ -314,3 +314,900 @@
 11-Aug-2025 10:18:13.769 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
 11-Aug-2025 10:18:13.777 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
 11-Aug-2025 10:18:13.781 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 10:18:14.970 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 10:18:14.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 10:18:14.975 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 10:18:14.975 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 10:18:14.975 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 10:18:14.975 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 10:18:14.975 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 10:18:14.976 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 10:18:14.976 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 10:18:14.976 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 10:18:14.976 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 10:18:14.985 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 10:18:14.985 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 10:18:14.985 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 10:18:14.985 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 10:18:14.985 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 10:18:14.985 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 10:18:14.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 10:18:14.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 10:18:14.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 10:18:14.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 10:18:14.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=54406
+11-Aug-2025 10:18:14.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 10:18:14.986 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 10:18:14.987 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 10:18:15.001 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 10:18:15.297 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 10:18:15.320 정보 [main] org.apache.catalina.startup.Catalina.load [571] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 10:18:15.388 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 10:18:15.388 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 10:18:15.399 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 10:18:15.940 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 10:18:16.011 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [610] 밀리초 내에 완료되었습니다.
+11-Aug-2025 10:18:16.015 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 10:18:16.039 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [717] 밀리초 내에 시작되었습니다.
+11-Aug-2025 10:29:11.770 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 10:29:11.777 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 10:29:11.785 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 10:29:11.790 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 10:29:13.135 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 10:29:13.141 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 10:29:13.141 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 10:29:13.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 10:29:13.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 10:29:13.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 10:29:13.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 10:29:13.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 10:29:13.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 10:29:13.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 10:29:13.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 10:29:13.153 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 10:29:13.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 10:29:13.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 10:29:13.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 10:29:13.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 10:29:13.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 10:29:13.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 10:29:13.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 10:29:13.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 10:29:13.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 10:29:13.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=55012
+11-Aug-2025 10:29:13.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 10:29:13.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 10:29:13.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 10:29:13.170 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 10:29:13.487 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 10:29:13.501 정보 [main] org.apache.catalina.startup.Catalina.load [569] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 10:29:13.568 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 10:29:13.568 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 10:29:13.583 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 10:29:14.087 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 10:29:14.158 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [574] 밀리초 내에 완료되었습니다.
+11-Aug-2025 10:29:14.162 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 10:29:14.184 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [681] 밀리초 내에 시작되었습니다.
+11-Aug-2025 10:45:36.625 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 10:45:36.631 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 10:45:36.637 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 10:45:36.638 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 10:45:38.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 10:45:38.162 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 10:45:38.162 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 10:45:38.162 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 10:45:38.163 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 10:45:38.163 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 10:45:38.163 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 10:45:38.163 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 10:45:38.163 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 10:45:38.164 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 10:45:38.164 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 10:45:38.174 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 10:45:38.174 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 10:45:38.174 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 10:45:38.174 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 10:45:38.174 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 10:45:38.174 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 10:45:38.174 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 10:45:38.174 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 10:45:38.175 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 10:45:38.175 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 10:45:38.175 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=55878
+11-Aug-2025 10:45:38.175 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 10:45:38.176 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 10:45:38.176 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 10:45:38.190 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 10:45:38.446 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 10:45:38.464 정보 [main] org.apache.catalina.startup.Catalina.load [545] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 10:45:38.536 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 10:45:38.536 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 10:45:38.548 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 10:45:39.131 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 10:45:39.209 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [659] 밀리초 내에 완료되었습니다.
+11-Aug-2025 10:45:39.213 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 10:45:39.235 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [769] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:06:22.299 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:06:22.305 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:06:22.312 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:06:22.315 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:06:23.665 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:06:23.670 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:06:23.670 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:06:23.670 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:06:23.670 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:06:23.671 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:06:23.671 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:06:23.671 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:06:23.671 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:06:23.671 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:06:23.671 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:06:23.682 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:06:23.682 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:06:23.682 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:06:23.682 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:06:23.682 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:06:23.682 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:06:23.683 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:06:23.683 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:06:23.683 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:06:23.683 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:06:23.683 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=57022
+11-Aug-2025 11:06:23.683 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:06:23.684 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:06:23.684 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:06:23.695 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:06:23.972 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:06:23.989 정보 [main] org.apache.catalina.startup.Catalina.load [499] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:06:24.040 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:06:24.040 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:06:24.050 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:06:24.535 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:06:24.605 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [552] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:06:24.610 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:06:24.636 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [644] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:07:22.200 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:07:22.206 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:07:22.213 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:07:22.216 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:07:23.684 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:07:23.690 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:07:23.690 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:07:23.690 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:07:23.691 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:07:23.691 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:07:23.691 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:07:23.691 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:07:23.691 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:07:23.692 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:07:23.692 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:07:23.703 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:07:23.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:07:23.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:07:23.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:07:23.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:07:23.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:07:23.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:07:23.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:07:23.705 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:07:23.705 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:07:23.705 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=57083
+11-Aug-2025 11:07:23.705 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:07:23.705 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:07:23.705 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:07:23.719 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:07:23.996 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:07:24.009 정보 [main] org.apache.catalina.startup.Catalina.load [499] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:07:24.067 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:07:24.067 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:07:24.075 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:07:24.577 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:07:24.652 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [575] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:07:24.657 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:07:24.680 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [669] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:07:39.710 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:07:39.715 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:07:39.722 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:07:39.726 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:07:41.132 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:07:41.137 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:07:41.137 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:07:41.137 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:07:41.137 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:07:41.137 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:07:41.137 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:07:41.138 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:07:41.138 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:07:41.139 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:07:41.139 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:07:41.149 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:07:41.149 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:07:41.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:07:41.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:07:41.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:07:41.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:07:41.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:07:41.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:07:41.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:07:41.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:07:41.152 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=57103
+11-Aug-2025 11:07:41.152 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:07:41.152 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:07:41.152 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:07:41.174 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:07:41.465 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:07:41.480 정보 [main] org.apache.catalina.startup.Catalina.load [544] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:07:41.545 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:07:41.546 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:07:41.558 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:07:42.067 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:07:42.138 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [579] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:07:42.142 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:07:42.164 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [682] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:10:44.172 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:10:44.178 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:10:44.185 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:10:44.187 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:10:45.542 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:10:45.546 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:10:45.546 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:10:45.546 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:10:45.547 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:10:45.547 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:10:45.547 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:10:45.547 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:10:45.547 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:10:45.547 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:10:45.547 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:10:45.555 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:10:45.555 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:10:45.555 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:10:45.555 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:10:45.555 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:10:45.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:10:45.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:10:45.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:10:45.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:10:45.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:10:45.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=57283
+11-Aug-2025 11:10:45.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:10:45.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:10:45.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:10:45.569 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:10:45.850 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:10:45.869 정보 [main] org.apache.catalina.startup.Catalina.load [506] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:10:45.936 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:10:45.936 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:10:45.949 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:10:46.443 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:10:46.524 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [572] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:10:46.530 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:10:46.564 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [693] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:22:56.473 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:22:56.478 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:22:56.487 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:22:56.489 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:22:57.916 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:22:57.920 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:22:57.920 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:22:57.921 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:22:57.921 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:22:57.921 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:22:57.921 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:22:57.921 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:22:57.921 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:22:57.922 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:22:57.922 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:22:57.931 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:22:57.932 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:22:57.932 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:22:57.932 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:22:57.932 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:22:57.932 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:22:57.932 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:22:57.933 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:22:57.933 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:22:57.933 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:22:57.933 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=57965
+11-Aug-2025 11:22:57.933 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:22:57.934 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:22:57.934 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:22:57.967 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:22:58.252 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:22:58.269 정보 [main] org.apache.catalina.startup.Catalina.load [543] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:22:58.326 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:22:58.326 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:22:58.338 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:22:58.935 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:22:59.038 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [697] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:22:59.044 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:22:59.071 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [800] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:23:15.112 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:23:15.118 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:23:15.126 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:23:15.128 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:23:16.491 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:23:16.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:23:16.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:23:16.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:23:16.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:23:16.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:23:16.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:23:16.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:23:16.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:23:16.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:23:16.498 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:23:16.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:23:16.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:23:16.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:23:16.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:23:16.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:23:16.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:23:16.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:23:16.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:23:16.508 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:23:16.508 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:23:16.508 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=57989
+11-Aug-2025 11:23:16.508 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:23:16.509 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:23:16.509 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:23:16.519 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:23:16.818 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:23:16.834 정보 [main] org.apache.catalina.startup.Catalina.load [515] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:23:16.883 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:23:16.883 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:23:16.894 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:23:17.477 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:23:17.564 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [667] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:23:17.570 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:23:17.595 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [760] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:23:36.890 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:23:36.895 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:23:36.901 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:23:36.905 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:23:38.477 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:23:38.482 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:23:38.482 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:23:38.482 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:23:38.483 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:23:38.483 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:23:38.483 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:23:38.483 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:23:38.483 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:23:38.483 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:23:38.483 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:23:38.494 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:23:38.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:23:38.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:23:38.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:23:38.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:23:38.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:23:38.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:23:38.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:23:38.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:23:38.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:23:38.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=58015
+11-Aug-2025 11:23:38.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:23:38.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:23:38.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:23:38.513 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:23:38.850 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:23:38.870 정보 [main] org.apache.catalina.startup.Catalina.load [736] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:23:38.934 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:23:38.934 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:23:38.946 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:23:39.529 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:23:39.605 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [656] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:23:39.608 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:23:39.630 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [758] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:24:36.009 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:24:36.013 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:24:36.020 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:24:36.022 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:24:37.390 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:24:37.395 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:24:37.395 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:24:37.395 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:24:37.395 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:24:37.395 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:24:37.395 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:24:37.395 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:24:37.396 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:24:37.396 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:24:37.396 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:24:37.404 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:24:37.404 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:24:37.404 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:24:37.404 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:24:37.404 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:24:37.404 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:24:37.404 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:24:37.404 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:24:37.404 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:24:37.404 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:24:37.405 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=58071
+11-Aug-2025 11:24:37.405 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:24:37.405 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:24:37.405 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:24:37.418 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:24:37.683 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:24:37.701 정보 [main] org.apache.catalina.startup.Catalina.load [474] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:24:37.774 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:24:37.774 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:24:37.790 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:24:38.346 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:24:38.427 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [635] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:24:38.433 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:24:38.457 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [754] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:27:45.995 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:27:46.001 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:27:46.008 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:27:46.011 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:27:49.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:27:49.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:27:49.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:27:49.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:27:49.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:27:49.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:27:49.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:27:49.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:27:49.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:27:49.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:27:49.566 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:27:49.574 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:27:49.575 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:27:49.575 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:27:49.575 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:27:49.575 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:27:49.575 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:27:49.575 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:27:49.575 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:27:49.575 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:27:49.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:27:49.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=58234
+11-Aug-2025 11:27:49.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:27:49.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:27:49.577 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:27:49.587 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:27:49.831 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:27:49.847 정보 [main] org.apache.catalina.startup.Catalina.load [450] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:27:49.918 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:27:49.918 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:27:49.929 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:27:50.521 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:27:50.629 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [698] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:27:50.635 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:27:50.661 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [813] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:29:03.484 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:29:03.489 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:29:03.496 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:29:03.500 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:29:04.869 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:29:04.874 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:29:04.874 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:29:04.874 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:29:04.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:29:04.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:29:04.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:29:04.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:29:04.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:29:04.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:29:04.875 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:29:04.885 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:29:04.885 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:29:04.886 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:29:04.886 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:29:04.886 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:29:04.886 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:29:04.886 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:29:04.886 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:29:04.886 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:29:04.886 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:29:04.887 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=58305
+11-Aug-2025 11:29:04.887 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:29:04.887 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:29:04.888 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:29:04.903 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:29:05.216 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:29:05.234 정보 [main] org.apache.catalina.startup.Catalina.load [577] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:29:05.279 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:29:05.279 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:29:05.294 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:29:05.838 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:29:05.913 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [617] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:29:05.916 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:29:05.938 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [701] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:31:05.877 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:31:05.883 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:31:05.889 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:31:05.900 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:31:08.661 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:31:08.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:31:08.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:31:08.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:31:08.668 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:31:08.668 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:31:08.668 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:31:08.668 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:31:08.668 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:31:08.668 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:31:08.668 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:31:08.679 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:31:08.680 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:31:08.680 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:31:08.680 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:31:08.680 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:31:08.680 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:31:08.680 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:31:08.680 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:31:08.680 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:31:08.681 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:31:08.681 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=58429
+11-Aug-2025 11:31:08.681 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:31:08.682 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:31:08.682 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:31:08.701 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:31:08.983 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:31:08.999 정보 [main] org.apache.catalina.startup.Catalina.load [540] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:31:09.051 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:31:09.051 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:31:09.060 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:31:09.603 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:31:09.685 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [623] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:31:09.689 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:31:09.711 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [711] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:31:24.131 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:31:24.137 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:31:24.143 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:31:24.146 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:31:43.173 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:31:43.178 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:31:43.178 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:31:43.179 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:31:43.179 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:31:43.179 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:31:43.179 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:31:43.179 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:31:43.179 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:31:43.179 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:31:43.180 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:31:43.190 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:31:43.190 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:31:43.190 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:31:43.190 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:31:43.191 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:31:43.191 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:31:43.191 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:31:43.191 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:31:43.191 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:31:43.191 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:31:43.192 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=58480
+11-Aug-2025 11:31:43.192 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:31:43.192 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:31:43.192 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:31:43.207 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:31:43.482 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:31:43.498 정보 [main] org.apache.catalina.startup.Catalina.load [521] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:31:43.565 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:31:43.565 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:31:43.576 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:31:44.127 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:31:44.215 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [638] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:31:44.220 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:31:44.247 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [746] 밀리초 내에 시작되었습니다.
+11-Aug-2025 11:37:02.295 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 11:37:02.301 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 11:37:02.308 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 11:37:02.310 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 11:37:05.170 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 11:37:05.176 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 11:37:05.176 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 11:37:05.176 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 11:37:05.176 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 11:37:05.176 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 11:37:05.176 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 11:37:05.176 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 11:37:05.177 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 11:37:05.177 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:37:05.177 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:37:05.186 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 11:37:05.186 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 11:37:05.186 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 11:37:05.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 11:37:05.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 11:37:05.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 11:37:05.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 11:37:05.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 11:37:05.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 11:37:05.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 11:37:05.188 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=58786
+11-Aug-2025 11:37:05.188 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 11:37:05.188 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 11:37:05.189 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 11:37:05.199 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 11:37:05.473 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 11:37:05.496 정보 [main] org.apache.catalina.startup.Catalina.load [522] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 11:37:05.546 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 11:37:05.546 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 11:37:05.561 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 11:37:06.155 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 11:37:06.237 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [674] 밀리초 내에 완료되었습니다.
+11-Aug-2025 11:37:06.242 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 11:37:06.267 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [770] 밀리초 내에 시작되었습니다.
+11-Aug-2025 12:38:57.907 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 12:38:57.912 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 12:38:57.921 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 12:38:57.924 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 12:38:59.350 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 12:38:59.356 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 12:38:59.357 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 12:38:59.357 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 12:38:59.357 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 12:38:59.357 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 12:38:59.358 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 12:38:59.358 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 12:38:59.358 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 12:38:59.358 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 12:38:59.359 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 12:38:59.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 12:38:59.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 12:38:59.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 12:38:59.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 12:38:59.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 12:38:59.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 12:38:59.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 12:38:59.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 12:38:59.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 12:38:59.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 12:38:59.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=62060
+11-Aug-2025 12:38:59.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 12:38:59.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 12:38:59.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 12:38:59.386 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 12:38:59.648 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 12:38:59.665 정보 [main] org.apache.catalina.startup.Catalina.load [517] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 12:38:59.737 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 12:38:59.737 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 12:38:59.751 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 12:39:00.292 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 12:39:00.368 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [615] 밀리초 내에 완료되었습니다.
+11-Aug-2025 12:39:00.372 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 12:39:00.393 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [726] 밀리초 내에 시작되었습니다.
+11-Aug-2025 12:40:23.041 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 12:40:23.046 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 12:40:23.053 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 12:40:23.055 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 12:40:25.923 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 12:40:25.928 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 12:40:25.928 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 12:40:25.928 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 12:40:25.928 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 12:40:25.928 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 12:40:25.928 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 12:40:25.929 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 12:40:25.929 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 12:40:25.929 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 12:40:25.929 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 12:40:25.937 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 12:40:25.938 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 12:40:25.938 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 12:40:25.938 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 12:40:25.938 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 12:40:25.938 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 12:40:25.938 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 12:40:25.939 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 12:40:25.939 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 12:40:25.939 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 12:40:25.939 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=62149
+11-Aug-2025 12:40:25.939 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 12:40:25.939 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 12:40:25.939 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 12:40:25.953 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 12:40:26.189 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 12:40:26.204 정보 [main] org.apache.catalina.startup.Catalina.load [445] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 12:40:26.267 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 12:40:26.268 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 12:40:26.277 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 12:40:26.804 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 12:40:26.885 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [605] 밀리초 내에 완료되었습니다.
+11-Aug-2025 12:40:26.889 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 12:40:26.911 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [704] 밀리초 내에 시작되었습니다.
+11-Aug-2025 12:41:52.247 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 12:41:52.253 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 12:41:52.260 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 12:41:52.263 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 12:41:53.697 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 12:41:53.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 12:41:53.703 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 12:41:53.703 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 12:41:53.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 12:41:53.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 12:41:53.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 12:41:53.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 12:41:53.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 12:41:53.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 12:41:53.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 12:41:53.715 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 12:41:53.715 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 12:41:53.715 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 12:41:53.715 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 12:41:53.715 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 12:41:53.716 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 12:41:53.716 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 12:41:53.716 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 12:41:53.716 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 12:41:53.716 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 12:41:53.717 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=62255
+11-Aug-2025 12:41:53.717 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 12:41:53.717 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 12:41:53.717 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 12:41:53.731 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 12:41:54.005 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 12:41:54.022 정보 [main] org.apache.catalina.startup.Catalina.load [549] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 12:41:54.095 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 12:41:54.096 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 12:41:54.106 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 12:41:54.671 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 12:41:54.756 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [647] 밀리초 내에 완료되었습니다.
+11-Aug-2025 12:41:54.761 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 12:41:54.784 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [760] 밀리초 내에 시작되었습니다.
+11-Aug-2025 12:42:12.556 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 12:42:12.561 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 12:42:12.568 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 12:42:12.571 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 12:42:15.429 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 12:42:15.433 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 12:42:15.433 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 12:42:15.433 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 12:42:15.434 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 12:42:15.434 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 12:42:15.434 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 12:42:15.434 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 12:42:15.434 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 12:42:15.434 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 12:42:15.435 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 12:42:15.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 12:42:15.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 12:42:15.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 12:42:15.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 12:42:15.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 12:42:15.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 12:42:15.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 12:42:15.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 12:42:15.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 12:42:15.445 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 12:42:15.445 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=62281
+11-Aug-2025 12:42:15.445 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 12:42:15.445 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 12:42:15.446 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 12:42:15.460 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 12:42:15.737 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 12:42:15.755 정보 [main] org.apache.catalina.startup.Catalina.load [507] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 12:42:15.827 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 12:42:15.827 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 12:42:15.837 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 12:42:16.398 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 12:42:16.471 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [633] 밀리초 내에 완료되었습니다.
+11-Aug-2025 12:42:16.475 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 12:42:16.498 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [741] 밀리초 내에 시작되었습니다.
+11-Aug-2025 12:42:22.685 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 12:42:22.690 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 12:42:22.697 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 12:42:22.699 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 12:42:24.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 12:42:24.088 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 12:42:24.089 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 12:42:24.089 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 12:42:24.089 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 12:42:24.089 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 12:42:24.089 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 12:42:24.089 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 12:42:24.089 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 12:42:24.090 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 12:42:24.090 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 12:42:24.100 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 12:42:24.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 12:42:24.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 12:42:24.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 12:42:24.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 12:42:24.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 12:42:24.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 12:42:24.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 12:42:24.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 12:42:24.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 12:42:24.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=62291
+11-Aug-2025 12:42:24.102 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 12:42:24.102 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 12:42:24.102 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 12:42:24.121 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 12:42:24.415 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 12:42:24.432 정보 [main] org.apache.catalina.startup.Catalina.load [551] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 12:42:24.507 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 12:42:24.508 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 12:42:24.518 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 12:42:25.015 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 12:42:25.090 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [570] 밀리초 내에 완료되었습니다.
+11-Aug-2025 12:42:25.095 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 12:42:25.118 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [684] 밀리초 내에 시작되었습니다.
+11-Aug-2025 14:22:19.903 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 14:22:19.908 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 14:22:19.915 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 14:22:19.919 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 14:22:22.641 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 14:22:22.645 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 14:22:22.645 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 14:22:22.645 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 14:22:22.646 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 14:22:22.646 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 14:22:22.646 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 14:22:22.646 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 14:22:22.646 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 14:22:22.646 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 14:22:22.647 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 14:22:22.654 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 14:22:22.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 14:22:22.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 14:22:22.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 14:22:22.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 14:22:22.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 14:22:22.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 14:22:22.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 14:22:22.655 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 14:22:22.656 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 14:22:22.656 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=51162
+11-Aug-2025 14:22:22.656 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 14:22:22.656 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 14:22:22.657 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 14:22:22.665 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 14:22:22.914 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 14:22:22.930 정보 [main] org.apache.catalina.startup.Catalina.load [461] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 14:22:22.992 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 14:22:22.993 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 14:22:23.004 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 14:22:23.667 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 14:22:23.742 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [736] 밀리초 내에 완료되었습니다.
+11-Aug-2025 14:22:23.746 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 14:22:23.771 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [839] 밀리초 내에 시작되었습니다.
+11-Aug-2025 14:37:08.233 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 14:37:08.239 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 14:37:08.246 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 14:37:08.250 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+11-Aug-2025 14:37:10.227 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.43
+11-Aug-2025 14:37:10.233 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 1 2025 21:30:20 UTC
+11-Aug-2025 14:37:10.233 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.43.0
+11-Aug-2025 14:37:10.233 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+11-Aug-2025 14:37:10.234 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+11-Aug-2025 14:37:10.234 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+11-Aug-2025 14:37:10.234 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Users\leehe\.jdks\ms-21.0.8
+11-Aug-2025 14:37:10.234 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          21.0.8+9-LTS
+11-Aug-2025 14:37:10.234 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Microsoft
+11-Aug-2025 14:37:10.234 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 14:37:10.234 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 14:37:10.246 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Aug-2025 14:37:10.246 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+11-Aug-2025 14:37:10.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+11-Aug-2025 14:37:10.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Aug-2025 14:37:10.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Aug-2025 14:37:10.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\Users\leehe\Desktop\bootcamp\jsp_board\apache-tomcat-10.1.43
+11-Aug-2025 14:37:10.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508
+11-Aug-2025 14:37:10.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\temp
+11-Aug-2025 14:37:10.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\logging.properties
+11-Aug-2025 14:37:10.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2025 14:37:10.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\lib\idea_rt.jar=51969
+11-Aug-2025 14:37:10.248 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+11-Aug-2025 14:37:10.248 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+11-Aug-2025 14:37:10.248 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+11-Aug-2025 14:37:10.263 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [C:\Users\leehe\.jdks\ms-21.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;c:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Users\leehe\AppData\Local\Programs\Python\Launcher\;C:\Users\leehe\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\leehe\.dotnet\tools;C:\Users\leehe\AppData\Local\Programs\Python\Python313;C:\Users\leehe\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\leehe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\leehe\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\leehe\AppData\Local\Programs\cursor\resources\app\bin;.]
+11-Aug-2025 14:37:10.538 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+11-Aug-2025 14:37:10.554 정보 [main] org.apache.catalina.startup.Catalina.load [524] 밀리초 내에 서버가 초기화되었습니다.
+11-Aug-2025 14:37:10.615 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+11-Aug-2025 14:37:10.615 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.43]
+11-Aug-2025 14:37:10.627 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]을(를) 배치합니다.
+11-Aug-2025 14:37:11.172 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+11-Aug-2025 14:37:11.243 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [C:\Users\leehe\Desktop\bootcamp\jsp_board_2508\conf\Catalina\localhost\ROOT.xml]의 배치가 [613] 밀리초 내에 완료되었습니다.
+11-Aug-2025 14:37:11.246 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+11-Aug-2025 14:37:11.266 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [709] 밀리초 내에 시작되었습니다.
+11-Aug-2025 15:17:45.090 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+11-Aug-2025 15:17:45.097 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+11-Aug-2025 15:17:45.105 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+11-Aug-2025 15:17:45.109 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.

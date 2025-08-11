@@ -21,7 +21,11 @@ public class ArticleService {
         return articleRepository.save(title, content);
     }
 
-    public Article findById(int id) {
+    public Article findById(long id) {
         return articleRepository.findById(id);
+    }
+
+    public void modify(long id, String title, String content) {
+        articleRepository.modify(id,title, content);
     }
 }
