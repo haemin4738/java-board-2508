@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.LongStream;
 
 public class ArticleRepository {
-    private List<Article> articleList;
+    private final List<Article> articleList;
     private long lastId;
 
     public ArticleRepository() {

@@ -7,7 +7,7 @@ import com.ll.jsp.board.boundedContext.base.Container;
 import java.util.List;
 
 public class ArticleService {
-    private ArticleRepository articleRepository;
+    private final ArticleRepository articleRepository;
 
     public ArticleService() {
         this.articleRepository = Container.articleRepository;

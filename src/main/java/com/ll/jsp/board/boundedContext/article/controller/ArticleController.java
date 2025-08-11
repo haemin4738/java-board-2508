@@ -7,11 +7,9 @@ import com.ll.jsp.board.boundedContext.base.Container;
 import com.ll.jsp.board.boundedContext.global.base.Rq;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.LongStream;
 
 public class ArticleController {
-    private ArticleService articleService;
+    private final ArticleService articleService;
 
     public ArticleController() {
         articleService = Container.articleService;
