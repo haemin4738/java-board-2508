@@ -8,13 +8,12 @@ import com.ll.jsp.board.boundedContext.member.repository.MemberRepository;
 import com.ll.jsp.board.boundedContext.member.service.MemberService;
 
 public class Container {
-    public static MemberController memberController;
     public static ArticleRepository articleRepository;
     public static ArticleService articleService;
     public static ArticleController articleController;
-    public static MemberService memberService;
     public static MemberRepository memberRepository;
-
+    public static MemberService memberService;
+    public static MemberController memberController;
 
     static {
         memberRepository = new MemberRepository();

@@ -7,12 +7,12 @@ import com.ll.jsp.board.boundedContext.base.Container;
 import java.util.List;
 
 public class ArticleService {
-    private final ArticleRepository articleRepository;
+    private ArticleRepository articleRepository;
 
     public ArticleService() {
-        this.articleRepository = Container.articleRepository;
-
+        articleRepository = Container.articleRepository;
     }
+
     public List<Article> findAll() {
         return articleRepository.findAll();
     }

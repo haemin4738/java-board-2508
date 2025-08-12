@@ -13,7 +13,7 @@ import java.io.IOException;
 public class HomeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Rq rq = new Rq(req, resp);
+        Rq rq = new Rq(req,resp);
         rq.view("index");
     }
 }

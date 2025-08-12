@@ -8,13 +8,13 @@ import java.util.List;
 import java.util.stream.LongStream;
 
 public class ArticleRepository {
-    private final List<Article> articleList;
+    private List<Article> articleList;
     private long lastId;
 
     public ArticleRepository() {
         articleList = new ArrayList<>();
         makeTestData();
-        lastId = articleList.get(articleList.size() - 1).getId();
+        lastId = articleList.get(articleList.size() -1).getId();
     }
 
     void makeTestData() {
@@ -32,8 +32,8 @@ public class ArticleRepository {
 
     public long save(String title, String content) {
         long id = ++lastId;
-
         Article article = new Article(id, title, content);
+
         articleList.add(article);
 
         return id;
@@ -62,6 +62,4 @@ public class ArticleRepository {
 
         articleList.remove(article);
     }
-
-
 }
