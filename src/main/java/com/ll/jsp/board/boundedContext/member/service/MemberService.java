@@ -2,6 +2,7 @@ package com.ll.jsp.board.boundedContext.member.service;
 
 
 import com.ll.jsp.board.boundedContext.base.Container;
+import com.ll.jsp.board.boundedContext.member.dto.Member;
 import com.ll.jsp.board.boundedContext.member.repository.MemberRepository;
 
 public class MemberService {
@@ -13,5 +14,9 @@ public class MemberService {
 
     public void join(String username, String password, String name) {
         memberRepository.save(username, password, name);
+    }
+
+    public Member findByUsername(String username) {
+        return memberRepository.findByUsername(username);
     }
 }
