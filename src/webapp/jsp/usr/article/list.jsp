@@ -4,57 +4,30 @@
 
 <%@ include file="../common/header.jspf" %>
 
-<%
-List<Article> articleList = (List<Article>) request.getAttribute("articleList");
-    %>
+<h1>게시물 리스트</h1>
 
-    <h1>게시물 리스트</h1>
-
-    <div>
-        <ul>
-            <% for (Article article : articleList) { %>
-            <li><%= article.getId() %>번 : <%= article.getTitle() %></li>
-            <% } %>
-        </ul>
-
-        <ul>
-            EL
-        <%
-        for (int i = articleList.size() - 1; i >= 0; i--) {
-        pageContext.setAttribute("article", articleList.get(i));
-        %>
-        <li>${article.id}번 : ${article.title}</li>
-        <% } %>
-        </ul>
-
-        <ul>
-            JSTL
-            <c:forEach var="article" items="${articleList}" varStatus="status">
-            <li>${article.id}번 : ${article.title}</li>
-            </c:forEach>
-        </ul>
-
-        <table border="1">
-            <thead>
+<div>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>번호</th>
+            <th>제목</th>
+        </tr>
+        </thead>
+        <tbody>
+        <c:forEach var="article" items="${articleList}" varStatus="status">
             <tr>
-                <th>번호</th>
-                <th>내용</th>
+                <td>${article.id}</td>
+                <td>
+                    <a href="/usr/article/detail/${article.id}">${article.title}</a>
+                </td>
             </tr>
-            </thead>
-            <c:forEach var="article" items="${articleList}" varStatus="status">
-            <tbody>
-                <tr>
-                    <td>${article.id}번</td>
-                    <td>
-                        <a href="/usr/article/detail/${article.id}">${article.title}</a>
-                    </td>
-                </tr>
-            </c:forEach>
-            </tbody>
-        </table>
+        </c:forEach>
+        </tbody>
+    </table>
 
-        <a href="/usr/article/write">글쓰기</a>
-    </div>
+    <a href="/usr/article/write">글쓰기</a>
+</div>
 
 
-    <%@ include file="../common/footer.jspf" %>
+<%@ include file="../common/footer.jspf" %>
