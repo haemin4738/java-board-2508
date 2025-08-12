@@ -1,10 +1,8 @@
-<%@ page import="com.ll.jsp.board.boundedContext.article.dto.Article" %>
-<%@ page import="java.util.ArrayList" %>
-<%@ page import="java.util.List" %>
-
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!-- JSP 파일에서 JSTL을 사용하기 위해 taglib 선언-->
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<%@ include file="../common/header.jspf" %>
 
 <%
 List<Article> articleList = (List<Article>) request.getAttribute("articleList");
@@ -57,3 +55,6 @@ List<Article> articleList = (List<Article>) request.getAttribute("articleList");
 
         <a href="/usr/article/write">글쓰기</a>
     </div>
+
+
+    <%@ include file="../common/footer.jspf" %>

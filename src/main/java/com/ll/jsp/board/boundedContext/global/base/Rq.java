@@ -140,4 +140,5 @@ public class Rq {
                 </script>
                 """.formatted(msg));
     }
+
 }
