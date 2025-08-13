@@ -58,19 +58,27 @@ public class ArticleRepository {
     }
 
     public void modify(long id, String title, String content) {
-        Article article = findById(id);
-
-        if (article == null) return;
-
-        article.setTitle(title);
-        article.setContent(content);
+        dbConnection.update("""
+                UPDATE article
+                SET title = '%s',
+                content = '%s'
+                WHERE id = %d
+                """.formatted(title, content, id));
+//        Article article = findById(id);
+//
+//        if (article == null) return;
+//
+//        article.setTitle(title);
+//        article.setContent(content);
     }
 
     public void delete(long id) {
-        Article article = findById(id);
+        dbConnection.delete("delete from article where id = %d".formatted(id));
 
-        if (article == null) return;
-
-        articleList.remove(article);
+//        Article article = findById(id);
+//
+//        if (article == null) return;
+//
+//        articleList.remove(article);
     }
 }
