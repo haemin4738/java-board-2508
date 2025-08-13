@@ -5,39 +5,33 @@ import com.ll.jsp.board.boundedContext.base.Container;
 import com.ll.jsp.board.db.DBConnection;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.LongStream;
+import java.util.Map;
 
 public class ArticleRepository {
     private List<Article> articleList;
-    private DBConnection dbConnection;
+    DBConnection dbConnection;
 
     public ArticleRepository() {
         articleList = new ArrayList<>();
-        makeTestData();
-
         dbConnection = Container.dbConnection;
-
-    }
-
-    void makeTestData() {
-        LongStream.rangeClosed(1, 5).forEach(i -> {
-            Article article = new Article(i, "제목 " + i, "내용 " + i);
-            articleList.add(article);
-        });
     }
 
     public List<Article> findAll() {
+        List<Map<String, Object>> rows = dbConnection.selectRows("select * from article");
+        System.out.println(rows);
 
+        for (Map<String, Object> row : rows) {
+            Article article  = new Article(row);
 
-        return articleList.stream()
-                .sorted(Comparator.comparing(Article::getId).reversed()) // 정렬 기준 예시
-                .toList();
+            articleList.add(article);
+        }
+        System.out.println("articleList = " + articleList);
+        return articleList;
     }
 
     public long save(String title, String content) {
-        int id = dbConnection.insert("INSERT INTO article SET title = '%s', content = '%s'".formatted(title, content));
+        int id = dbConnection.insert("INSERT INTO article SET title='%s', content='%s'".formatted(title, content));
 
         return id;
     }
