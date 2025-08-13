@@ -11,8 +11,6 @@ CREATE TABLE article (
                          PRIMARY KEY(id)
 );
 
-select * from article;
-
 CREATE TABLE `member` (
                           id bigint UNSIGNED NOT NULL AUTO_INCREMENT,
                           username varchar(50) NOT NULL,

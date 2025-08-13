@@ -11,13 +11,11 @@ import java.util.stream.LongStream;
 
 public class ArticleRepository {
     private List<Article> articleList;
-    private long lastId;
     private DBConnection dbConnection;
 
     public ArticleRepository() {
         articleList = new ArrayList<>();
         makeTestData();
-        lastId = articleList.get(articleList.size() -1).getId();
 
         dbConnection = Container.dbConnection;
 
@@ -39,10 +37,7 @@ public class ArticleRepository {
     }
 
     public long save(String title, String content) {
-        long id = ++lastId;
-        Article article = new Article(id, title, content);
-
-        articleList.add(article);
+        int id = dbConnection.insert("INSERT INTO article SET title = '%s', content = '%s'".formatted(title, content));
 
         return id;
     }
