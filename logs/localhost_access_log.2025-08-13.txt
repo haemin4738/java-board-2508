@@ -619,3 +619,8 @@
 0:0:0:0:0:0:0:1 - - [13/Aug/2025:12:47:42 +0900] "GET /usr/member/login HTTP/1.1" 200 1720
 0:0:0:0:0:0:0:1 - - [13/Aug/2025:12:47:42 +0900] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 191
 0:0:0:0:0:0:0:1 - - [13/Aug/2025:12:47:42 +0900] "GET /favicon.ico HTTP/1.1" 200 191
+0:0:0:0:0:0:0:1 - - [13/Aug/2025:12:47:44 +0900] "POST /usr/member/login HTTP/1.1" 200 115
+0:0:0:0:0:0:0:1 - - [13/Aug/2025:12:47:44 +0900] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 191
+0:0:0:0:0:0:0:1 - - [13/Aug/2025:12:47:45 +0900] "GET / HTTP/1.1" 200 191
+0:0:0:0:0:0:0:1 - - [13/Aug/2025:12:47:45 +0900] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 200 191
+0:0:0:0:0:0:0:1 - - [13/Aug/2025:12:47:45 +0900] "GET /favicon.ico HTTP/1.1" 200 191
